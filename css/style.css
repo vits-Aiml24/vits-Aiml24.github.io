@@ -235,7 +235,9 @@
 }
 
 .page-header {
-    background: url(../img/group1.jpg) top center no-repeat;
+    background: 
+        linear-gradient(rgba(78, 87, 227, 0.722), rgba(220, 64, 228, 0.382)), /* Light blue gradient */
+        url(../img/group1.jpg) top center no-repeat; /* Background image */
     background-size: cover;
     text-shadow: 0 0 30px rgba(0, 0, 0, .1);
     height: 277px;
@@ -244,14 +246,18 @@
 .breadcrumb-item + .breadcrumb-item::before {
     color: var(--light);
 }
+
 @media (max-width: 500px) {
     .page-header {
-        background: url(../img/group1.jpg) top center no-repeat;
+        background: 
+            linear-gradient(rgba(117, 81, 245, 0.575), rgba(222, 45, 216, 0.5)), /* Light blue gradient */
+            url(../img/group1.jpg) top center no-repeat; /* Background image */
         background-size: cover;
         text-shadow: 0 0 30px rgba(0, 0, 0, .1);
         height: 180px;
     }
 }
+
 
 
 
@@ -325,7 +331,7 @@
 
 .team-item:hover .team-text {
     margin-top: -25px;
-    height: 106px;
+    height: 115px;
 }
 
 .team-item .team-text .team-social {
